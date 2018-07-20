@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	
+	<title>CodePlayer</title>
+	<link rel="stylesheet" type="text/css" href="codeplayercss.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src = "codeplayerjs.js"></script>
+	</head>
+
+    <body>
+	
+	    <div id="header">
+		    <h1>CodePlayer</h1>
+			<div id= "btngrp">
+			    <button type="button" class="active" id="hbtn" href="#html">HTML</button>
+				<button type="button" id="cbtn" href="#css">CSS</button>
+				<button type="button" id="jbtn" href="#javascript">Javascript</button>
+				<button type="button" class="active" id="obtn" href="#output">Output</button>
+			</div>
+		</div>
+		
+		<div class="container">
+		    <textarea id="html" class="section"><p id="paragraph">Hello World!</p>
+		    </textarea>
+		
+		    <textarea id="css" class="section auto">p { color:red;}
+		    </textarea>
+		
+		    <textarea id="javascript" class="section auto">document.getElementById("paragraph").innerHTML = "Hello Sharat!";
+		    </textarea>
+		
+		    <iframe id="output" class="section"> 
+		    </iframe>
+			
+		</div>	
+
+	</body>
+
+</html>
